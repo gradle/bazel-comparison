@@ -2,7 +2,7 @@
 
 ## Install the Gradle Profiler
 
-This page explains how to reproduce the Gradle vs Bazel performance numbers yourself. For that, you need to install the [Gradle profiler](https://github.com/gradle/gradle-profiler), a tool which
+This page explains how to reproduce the [Gradle vs Bazel](https://blog.gradle.org/gradle-vs-bazel-jvm) performance numbers yourself. For that, you need to install the [Gradle profiler](https://github.com/gradle/gradle-profiler), a tool which
 will automate benchmarking by running several builds in a row, with the appropriate options (it also runs Bazel builds). For non-incremental scenarios, you might want 
 alternatively want to use a tool like [hyperfine](https://github.com/sharkdp/hyperfine).  
 
